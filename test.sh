@@ -23,4 +23,4 @@ else
    echo "Test 2 passed!"
 fi
 
-return 0
+exit 0
