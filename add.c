@@ -13,6 +13,7 @@ int add3(int a, int b, int c){
 
 int main(int argc, char *argv[])
 {
+  /* Add two numbers when argc = 3, and three when it is 4 */
 
   if (argc != 3 && argc != 4){
     printf("Error!\n");
