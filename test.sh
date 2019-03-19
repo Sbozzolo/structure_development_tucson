@@ -18,7 +18,7 @@ fi
 
 
 # Test add 2 3 4, should be 9
-test1=$("$PROGRAM_NAME" 2 3 4)
+test2=$("$PROGRAM_NAME" 2 3 4)
 if [ "$test2" -eq 9 ]
 then
    echo "Test 2 passed!"
