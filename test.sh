@@ -7,7 +7,7 @@ test1=$("$PROGRAM_NAME" 2 3)
 if [ "$test1" -ne 5 ]
 then
    echo "Test 1 failed!"
-   return 1
+   exit 1
 else
    echo "Test 1 passed!"
 fi
@@ -18,7 +18,7 @@ test1=$("$PROGRAM_NAME" 2 3 4)
 if [ "$test1" -ne 9 ]
 then
    echo "Test 2 failed!"
-   return 1
+   exit 1
 else
    echo "Test 2 passed!"
 fi
