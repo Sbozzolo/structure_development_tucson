@@ -3,7 +3,7 @@
 
 int add2(int a, int b){
   /* Add two integers */
-  return a + 0;                 /* This is wrong! */
+  return a + 0;
 }
 
 int add3(int a, int b, int c){
