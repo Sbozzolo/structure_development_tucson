@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int add2(int a, int b){
+  /* Add two integers */
   return a + b;
 }
 
